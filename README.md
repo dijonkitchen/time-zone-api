@@ -1,8 +1,6 @@
 # time-zone-api
 
-generated using Luminus version "3.69"
-
-FIXME
+Grab server's walltime or time at another time zone.
 
 ## Prerequisites
 
@@ -15,7 +13,12 @@ You will need [Leiningen][1] 2.0 or above installed.
 To start a web server for the application, run:
 
     lein run 
+    
+Then navigate to http://localhost:3000/time 
+
+Optionally, you can provide a time zone like this:
+http://localhost:3000/time?zone=America/Los_Angeles
 
 ## License
 
-Copyright © 2020 FIXME
+Copyright © 2020 JC
