@@ -19,6 +19,12 @@ Then navigate to http://localhost:3000/time
 Optionally, you can provide a time zone like this:
 http://localhost:3000/time?zone=America/Los_Angeles
 
+## Development
+
+    lein repl
+
+Then invoke `(start)` to start server.
+
 ## License
 
 Copyright © 2020 JC
